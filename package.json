@@ -1,0 +1,24 @@
+{
+  "name": "firsthomework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build": "rollup --config rollup.config.js",
+    "watch": "rollup --config rollup.config.js --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.1.0",
+    "@rollup/plugin-terser": "^0.4.3",
+    "@rollup/plugin-typescript": "^11.1.2",
+    "rollup": "^3.26.0",
+    "tslib": "^2.6.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "@types/es6-promise": "^3.3.0",
+    "date-fns": "^2.30.0"
+  }
+}
